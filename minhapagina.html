@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:black;
+                background-size: cover;
+                
+                height: 100vh;
+                padding:0;
+                margin:0;
+            }
+
+            h1{
+            color:rgb(100,0,200)
+            }
+            div{
+            color:white;
+            }
+            h2{
+            color:rgb(200,0,200);
+            }
+            p{
+            color:white;
+            }
+            ul{
+            color:white;
+            }
+            button{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: 0;
+            border-radius: 20px;
+            }
+
+            a{
+            color:yellow;
+            }
+
+            botton{
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            padding: 10px
+            }
+
+            .white{
+            background-color: white;
+            color: black;
+            
+            }
+
+            .link{
+            color:blue;
+            }
+
+            .botao{
+            background-color: black;
+            color: white;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1> Minha página </h1>
+        <div>
+        <botton id = "botao" onclick="mode()"> Dark/Light Mode </botton>
+        </div>
+        <br>
+        <div>
+        <p id="p">O que você verá:</p>
+
+
+        <ol id="lista1">
+            <li> <a class="a" href="#sobre mim"> Sobre mim </a> </li>
+            <br>
+            <li> <a class="a2" href="#o que aprendi na aula"> O que aprendi na primeira aula </a> </li>
+            <br>
+            <li> <a class="a3" href="#o que aprendi na segunda aula"> O que aprendi na segunda aula</a> </li>
+            <br>
+            <li> <a class= "a4" href="#github"> GitHub </a></li>
+        </ol>
+        </div>
+        <h2 id="sobre mim"> Sobre mim </h2>
+        <img height="200px" src="https://poltronanerd.com.br/wp-content/uploads/2021/03/a-hello-kitty-foi-multada-em-62-mil-milhoes-de-euros-2.jpg"/>
+
+        <p id="paragrafo1"> Olá! Seja muito bem-vindo(a), e muito prazer! Me chamo Giovanna, tenho 18 anos e curso <i> Bacharelado em Ciência da Computação </i> (BCC) no <b>IME-USP</b>.</p>
+
+        <p id="paragrafo2"> Gosto de viajar (e de ficar em casa também), de conhecer/aprender coisas novas e de ouvir música. </p>
+
+        <h2 id="o que aprendi na aula"> O que aprendi na primeira aula do WebDev </h2>
+
+        <ul id="lista2">
+        <li> O que é o grupo de extensão USPCodeLab e os seus objetivos </li>
+        <li> O que é o curso WebDev, inciativa do CodeLab </li>
+        <li> As diferenças entre internet e web </li>
+        <li> O que é HTML e suas componentes: estrura, tags,...</li>
+        <li> Aplicações e exemplos práticos de HTML </li>
+        </ul>
+
+        <h2 id="o que aprendi na segunda aula"> O que aprendi na segunda aula do WebDev </h2>
+
+        <ul id="lista3">
+        <li> O que é CSS e a forma que é usado para a estilização aplicado ao HTML </li>
+        <li> Uso de seletores</li>
+        <li> Unidades de medida</li>
+        <li> Box model (como a estrutura de construção de uma página se assemelha a uma organização em caixas) </li>
+        
+
+
+        <h2 id="github"> GitHub </h2>
+        <span id="usuario"> Usuário </span>
+        <input id="user_input"/>
+        <button onclick="busca()"> Buscar </button> 
+        <div> <img id="img"/> </div>
+        <h3> Nome: <span id="nome_span"> </span> </h3>
+        <h3> Bio: <span id="bio_span"> </span> </h3>
+
+
+        <p id="ime">Conheça mais sobre o IME:</p>
+        <button><a href="https://www.ime.usp.br/"> Acesse </a></button>
+        <script src="myscripts.js"></script>
+    </body>
+</html>
